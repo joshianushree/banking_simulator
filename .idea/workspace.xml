@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6e89d44-cd1c-4c43-8ade-00b1bae1e371" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/banking-simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/banking-simulator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/BankingSimulatorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/dao/TransactionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/exception/InsufficientFundsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/exception/InvalidAmountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/model/TransactionRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/model/TxType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/service/AccountManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/service/ValidationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/ui/BankingApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/ui/BankingConsole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/util/AccountNumberGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-simulator/src/test/java/com/bankingsim/BankingSimulatorApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="35O4LZRKplcA8dXn10P7tg0E7PN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankingSimulatorApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Project/banking-simulator"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6e89d44-cd1c-4c43-8ade-00b1bae1e371" name="Changes" comment="" />
+      <created>1762967729817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762967729817</updated>
+    </task>
+    <servers />
+  </component>
+</project>

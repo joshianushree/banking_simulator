@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="583c5aff-2951-4922-8b63-75aae40f0228" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/banking-simulator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/bkup 12-11 evening.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../banking-simulator" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/galaxy-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/galaxy-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/nebula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/stars-layer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/stars-layer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/ForgotModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/ForgotModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/GalaxyLogo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/OtpModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/OtpModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/ProtectedRoute.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/SidebarMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/SidebarMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminDashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminDashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminLockedAccounts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminLockedAccounts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminReports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminReports.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminRollback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminRollback.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerGeneratePin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerGeneratePin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/HomePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/HomePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/StatisticsPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/StatisticsPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/accounts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/transactions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reports/MiniStatement_63033461947.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reports/accounts.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reports/transactions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../transactions.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="34uzbIP3X2RnvUcEadwxeL7y8Zq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankingSimulatorApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "latest__branch",
+    "last_opened_file_path": "D:/Project/banking-simulator/backend",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="BankingSimulatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bankingsim.BankingSimulatorApplication" />
+      <module name="banking-simulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bankingsim.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BankingSimulatorApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="583c5aff-2951-4922-8b63-75aae40f0228" name="Changes" comment="" />
+      <created>1762078314274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762078314274</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/BankingSimulatorApplication.java</url>
+          <line>19</line>
+          <properties field="bankingConsole" class="com.bankingsim.BankingSimulatorApplication" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

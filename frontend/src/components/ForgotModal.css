@@ -1,0 +1,138 @@
+/* Fullscreen dark overlay */
+.fm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+/* Glossy Modal Box */
+.fm-modal {
+  width: 100%;
+  max-width: 420px;
+
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 20px;
+  padding: 30px;
+
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0,0,0,0.4);
+
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+.fm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.fm-header h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.fm-close {
+  background: none;
+  border: none;
+  color: #ddd;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.fm-close:hover {
+  color: white;
+}
+
+/* Error message */
+.fm-error {
+  color: #ff6b6b;
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Section */
+.fm-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Labels */
+.fm-label {
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+/* Inputs */
+.fm-input {
+  width: 100%;
+  padding: 12px;
+
+   background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  color:white;
+  
+ 
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+
+  font-family: "Poppins", sans-serif;
+
+  transition: 0.25s ease;
+}
+
+.fm-input:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+  transform: scale(1.02);
+  outline: none;
+}
+
+/* Password input with icon */
+.fm-input-wrap {
+  position: relative;
+}
+
+.fm-eye {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Button — same as homepage theme */
+.fm-btn {
+  width: 100%;
+  padding: 14px;
+
+  background: linear-gradient(135deg, #00eaff, #0077ff);
+  border: none;
+
+  border-radius: 50px;
+  color: white;
+
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 0 12px rgba(0,119,255,0.7);
+
+  margin-top: 8px;
+}
+
+.fm-btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 18px rgba(0,170,255,1);
+}

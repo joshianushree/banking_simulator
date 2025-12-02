@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* === NEON GLASS OVERRIDES FOR YOUR EXISTING TAILWIND SIDEBAR === */
+aside.fixed.left-0 {
+  background: rgba(0, 0, 0, 0.55) !important;
+  backdrop-filter: blur(12px) !important;
+  border-right: 1px solid rgba(0, 234, 255, 0.3) !important;
+  box-shadow: 0 0 25px rgba(0, 234, 255, 0.281) !important;
+  border-radius: 0 18px 18px 0 !important;
+}
+
+aside.fixed.left-0 h2 {
+  color: #00eaff !important;
+  text-shadow: 0 0 8px rgba(0, 234, 255, 0.8) !important;
+}
+
+aside.fixed.left-0 button {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: white !important;
+  border-radius: 10px !important;
+  transition: 0.25s ease !important;
+}
+
+aside.fixed.left-0 button:hover {
+  background: rgba(0, 234, 255, 0.15) !important;
+  border-color: rgba(0, 234, 255, 0.6) !important;
+  transform: translateX(4px) !important;
+  box-shadow: 0 0 15px rgba(0, 234, 255, 0.6) !important;
+}
+
+div.fixed.inset-0.bg-black.bg-opacity-40 {
+  backdrop-filter: blur(6px) !important;
+}

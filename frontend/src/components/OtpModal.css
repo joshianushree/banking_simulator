@@ -1,0 +1,136 @@
+/* Background overlay */
+.otp-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+/* Glass modal */
+.otp-modal {
+  width: 100%;
+  max-width: 360px;
+
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 20px;
+  padding: 28px;
+
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0,0,0,0.4);
+
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* Header */
+.otp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.otp-header h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.otp-close {
+  background: none;
+  border: none;
+  color: #ddd;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.otp-close:hover {
+  color: white;
+}
+
+/* Input */
+.otp-input {
+  width: 100%;
+  padding: 12px;
+
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  color:white;
+
+  
+  border-radius: 10px;
+  outline: none;
+
+  font-size: 16px;
+  margin-bottom: 12px;
+
+  transition: 0.25s ease;
+}
+
+.otp-input:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+  transform: scale(1.02);
+  outline: none;
+}
+
+/* Error */
+.otp-error {
+  color: #ff6b6b;
+  text-align: center;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+/* Action Button (Theme matched) */
+.otp-btn {
+  width: 100%;
+  padding: 14px;
+
+  background: linear-gradient(135deg, #00eaff, #0077ff);
+  border: none;
+
+  border-radius: 50px;
+  color: white;
+
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.25s ease;
+
+  box-shadow: 0 0 12px rgba(0, 119, 255, 0.65);
+}
+
+.otp-btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 18px rgba(0,170,255,1);
+}
+
+/* Cancel button */
+.otp-cancel-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+  color: #ddd;
+  border: none;
+
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 17px;
+
+  transition: 0.2s ease;
+}
+
+.otp-cancel-btn:hover {
+  background:linear-gradient(135deg, #6a5af9, #c048ff);
+  box-shadow: 0 0 20px rgba(192,72,255,1);
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
