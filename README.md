@@ -139,7 +139,6 @@ The backend automatically creates & updates all required tables on startup.
 - `branch_name`
 - `ifsc_code`
 - `transaction_pin`
-- `auto_repayment_enabled`
 
 ---
 
@@ -175,7 +174,7 @@ The backend automatically creates & updates all required tables on startup.
 
 1. **Navigate to the frontend directory**  
    ```bash
-   cd request-manager-frontend
+   cd frontend
    ```
 
 2. **Install frontend dependencies**  
@@ -195,49 +194,49 @@ The backend automatically creates & updates all required tables on startup.
 
 ### 👩‍💼 Customer
 
--Login via Account Number + PIN + OTP
--Perform transactions
--View statements & reports
--Request account deletion
--Request loans
--Manage transaction PIN
+- Login via Account Number + PIN + OTP
+- Perform transactions
+- View statements & reports
+- Request account deletion
+- Request loans
+- Manage transaction PIN
 
 ### 👨‍💻 Admin
--Login via Username + Password + OTP
--Manage customers & admins
--Review deletion & loan requests
--Generate reports
--Lock/unlock accounts
--Rollback transactions
+- Login via Username + Password + OTP
+- Manage customers & admins
+- Review deletion & loan requests
+- Generate reports
+- Lock/unlock accounts
+- Rollback transactions
 
 ---
 
 ## 🔄 Account Deletion Workflow
 
--Customer submits deletion request
--deletion_req = 1 in DB
--Admin reviews request
--If approved:
---is_deleted = 1
---Account soft-deleted
---Email sent to customer
--If rejected:
---Comment sent to customer
---Request reset
+- Customer submits deletion request
+- deletion_req = 1 in DB
+- Admin reviews request
+- If approved:
+  - is_deleted = 1
+  - Account soft-deleted
+  - Email sent to customer
+- If rejected:
+  - Comment sent to customer
+  - Request reset
 
 ---
 
 ## 🏦 Loan Workflow
 
--Customer submits loan request
--Govt ID upload & EMI plan selection
--Admin reviews transaction history & balance
--Loan approved / rejected with comment
--Approved loans update:
-    --taken_loan
-    --loan_total_due
---loan_interest_rate
--Loan reflected in customer dashboard
+- Customer submits loan request
+- Govt ID upload & EMI plan selection
+- Admin reviews transaction history & balance
+- Loan approved / rejected with comment
+- Approved loans update:
+  - taken_loan
+  - loan_total_due
+  - loan_interest_rate
+- Loan reflected in customer dashboard
 
 ---
 
