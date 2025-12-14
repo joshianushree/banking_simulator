@@ -157,6 +157,13 @@ The backend automatically creates & updates all required tables on startup.
    spring.datasource.url=jdbc:mysql://localhost:3306/banking_simulator
    spring.datasource.username=root
    spring.datasource.password=your_password
+
+   mail.sender.email=test@gmail.com
+   mail.sender.password=lsqkcoygauhdxvsa
+
+   twilio.account-sid=YOUR_TWILIO_ACCOUNT_SID
+   twilio.auth-token=YOUR_TWILIO_AUTH_TOKEN
+   twilio.phone-number=+14793493515
    ```
 
 3. **Run the Spring Boot application**  
