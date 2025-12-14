@@ -1,0 +1,128 @@
+/* Background wrapper */
+.reports-wrapper {
+  min-height: 100vh;
+  padding-top: 110px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card */
+.reports-card {
+  width: 100%;
+  max-width: 550px;
+
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+
+  padding: 35px;
+  border-radius: 20px;
+
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 0 35px rgba(0,0,0,0.45);
+  backdrop-filter: blur(10px);
+
+  margin-bottom: 40px;
+}
+
+/* ⭐ Header (Left title + Right back button) */
+.reports-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+.reports-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;    /* spacing between all children */
+  margin-top: 20px;
+}
+
+
+.reports-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Back button inside header */
+.header-btn {
+  width: auto !important;
+  padding-left: 22px !important;
+  padding-right: 22px !important;
+}
+
+/* Inputs */
+.gl-input {
+  width: 100%;
+  padding: 12px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  
+  border-radius: 10px;
+ 
+
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+  color:white;
+  font-size: 15px;
+
+  transition: 0.25s;
+}
+
+.gl-input:focus {
+  outline: none;
+  border-color: #00eaff;
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+  transform: scale(1.03);
+}
+
+/* Buttons */
+.gl-btn-blue {
+  width: 100%;
+  padding: 14px;
+
+  border: none;
+  border-radius: 50px;
+
+  cursor: pointer;
+
+  color: white;
+  font-weight: 600;
+
+  background: linear-gradient(135deg, #00eaff, #0077ff);
+  box-shadow: 0 0 12px rgba(0,119,255,0.7);
+
+  margin-bottom: 12px;
+
+  transition: 0.25s ease;
+}
+
+.gl-btn-blue:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 18px rgba(0,170,255,1);
+}
+
+/* Messages */
+.gl-success {
+  color: #33ff99;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.gl-error {
+  color: #ff5b5b;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}

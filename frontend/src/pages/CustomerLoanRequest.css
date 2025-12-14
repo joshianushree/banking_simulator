@@ -1,0 +1,280 @@
+/* ===============================
+   PAGE WRAPPER
+================================ */
+.loan-wrapper {
+  min-height: 100vh;
+  padding-top: 110px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* ===============================
+   CONTAINER
+================================ */
+.loan-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===============================
+   TITLE BAR
+================================ */
+.loan-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.loan-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+/* ===============================
+   BACK BUTTON
+================================ */
+.gl-btn-back {
+  padding: 10px 26px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #00aaff, #0066ff);
+  border: 1px solid rgba(0,140,255,0.25);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 0 12px rgba(0,140,255,0.55);
+  transition: 0.25s ease;
+}
+
+.gl-btn-back:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 20px rgba(0,170,255,1);
+}
+
+/* ===============================
+   ALERT BOX
+================================ */
+.alert-box {
+  padding: 14px;
+  border-radius: 12px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.alert-success {
+  background: rgba(0,255,100,0.12);
+  color: #00ff6e;
+}
+
+.alert-error {
+  background: rgba(255,0,0,0.12);
+  color: #ff4b4b;
+}
+
+/* ===============================
+   CARD BLOCKS
+================================ */
+.loan-card-block {
+  background: rgba(0,0,0,0.55);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 25px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+/* ===============================
+   INPUTS
+================================ */
+.gl-label {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #e6e6e6;
+  display: block;
+}
+
+.gl-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 10px;
+
+  color: white;
+  font-size: 15px;
+  transition: 0.25s ease;
+}
+
+.gl-input:focus {
+  outline: none;
+  border-color: #00eaff;
+  box-shadow: 0 0 12px rgba(0,234,255,0.6);
+  transform: scale(1.03);
+}
+
+/* ===============================
+   CHECKBOX
+================================ */
+.checkbox-row {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #e6e6e6;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+.loan-btn-row {
+  display: flex;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.gl-btn-submit,
+.gl-btn-reset {
+  flex: 1;
+  padding: 12px 28px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+/* Submit button */
+.gl-btn-submit {
+  background: linear-gradient(135deg, #00c671, #009e5c);
+  color: white;
+  box-shadow: 0 0 12px rgba(0,200,120,0.55);
+}
+
+.gl-btn-submit:hover:not(.disabled) {
+  transform: scale(1.06);
+  box-shadow: 0 0 18px rgba(0,255,150,0.9);
+}
+
+.gl-btn-submit.disabled {
+  background: #777 !important;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* RESET button */
+.gl-btn-reset {
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+  color: white;
+  box-shadow: 0 0 12px rgba(192,72,255,0.55);
+}
+
+.gl-btn-reset:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 20px rgba(192,72,255,1);
+}
+
+/* ===============================
+   RIGHT SIDE INFO CARDS
+================================ */
+.loan-info-block {
+  background: rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 18px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 18px rgba(0,0,0,0.35);
+}
+
+.loan-info-title {
+  color: #00eaff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* ===============================
+   REQUIRED INFO
+================================ */
+.required-info p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #d6f7ff;
+}
+
+/* ===============================
+   HAMBURGER
+================================ */
+.menu-btn-global {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: white;
+
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 20px;
+
+  cursor: pointer;
+  transition: 0.25s;
+  z-index: 999;
+}
+
+.menu-btn-global:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+}
+
+/* ==========================================================
+   LOAN PAGE SUBHEADER (same as pin-subheader)
+   ========================================================== */
+.loan-subheader {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 16px 24px;
+
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.45);
+}
+
+.loan-subheader-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Back button same theme as PIN page */
+.loan-back-btn {
+  background: linear-gradient(135deg, #009dff, #005eff);
+  padding: 10px 24px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 12px rgba(0,140,255,0.6);
+  transition: 0.25s;
+}
+
+.loan-back-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(0,170,255,1);
+}
+

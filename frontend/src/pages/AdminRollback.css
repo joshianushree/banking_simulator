@@ -1,0 +1,161 @@
+.rollback-wrapper {
+  min-height: 100vh;
+  background-image: url("../../public/galaxy-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding-top: 110px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* Glass card */
+.rollback-card {
+  width: 95%;
+  max-width: 1100px;
+
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+
+  padding: 30px;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 0 40px rgba(0,0,0,0.45);
+
+  color: white;
+}
+
+/* Header */
+.rollback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rollback-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.rollback-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+/* Filters */
+.rollback-filters {
+  margin: 20px 0;
+}
+
+.gl-input {
+  width: 260px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.08);
+  color: white;
+
+  transition: 0.25s ease;
+}
+
+/* Success text */
+.rollback-success {
+  color: #7cffb2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.rollback-loading {
+  padding: 40px;
+  text-align: center;
+}
+
+.rollback-empty {
+  text-align: center;
+  padding: 25px;
+  color: #ccc;
+}
+
+/* Table wrapper */
+.rollback-table-wrapper {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+
+  border: 1px solid rgba(255,255,255,0.15);
+  overflow-x: auto;
+}
+
+.rollback-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rollback-table th {
+  padding: 12px;
+  background: rgba(255,255,255,0.15);
+  text-align: left;
+  font-weight: 600;
+}
+
+.rollback-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.rollback-table tr:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+/* Status */
+.rollback-status-green {
+  color: #00ffb2;
+  font-weight: 700;
+}
+
+.rollback-status-normal {
+  color: white;
+}
+
+/* Buttons */
+.gl-btn-blue {
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #00eaff, #0077ff);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.gl-btn-blue:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(0,180,255,1);
+}
+
+.gl-btn-red {
+  padding: 8px 14px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.gl-btn-red:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(255,70,70,1);
+}
+
+.gl-btn-gray {
+  padding: 8px 14px;
+  border-radius: 50px;
+  background: rgba(255,255,255,0.3);
+  color: #ddd;
+  border: none;
+}

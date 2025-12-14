@@ -1,0 +1,273 @@
+/* =========================================================
+   PAGE WRAPPER
+========================================================= */
+.admin-del-wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 110px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+/* =========================================================
+   GLASS MAIN CONTAINER (same style as AdminAccounts)
+========================================================= */
+.admin-del-container {
+  width: 100%;
+  max-width: 1150px;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.45);
+  position: relative;
+  z-index: 1;
+}
+
+/* =========================================================
+   TOP BAR WITH BACK + REFRESH BUTTONS
+========================================================= */
+.del-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.del-topbar h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.del-controls {
+  display: flex;
+  gap: 12px;
+}
+
+/* =========================================================
+   TABLE WRAPPER (glass card)
+========================================================= */
+.del-table-wrapper {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 12px;
+  overflow-x: auto;
+}
+
+.del-section-title {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 16px 6px;
+}
+
+/* =========================================================
+   TABLE (same style as AdminAccounts)
+========================================================= */
+.del-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  margin-top: 6px;
+}
+
+.del-table th {
+  padding: 12px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.15);
+  font-weight: 600;
+}
+
+.del-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.del-table tr:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.del-empty {
+  text-align: center;
+  padding: 20px;
+  color: #ddd;
+}
+
+/* =========================================================
+   BADGES (Loan Active / No Loan)
+========================================================= */
+.badge-red {
+  background: #ff3b3b;
+  padding: 4px 12px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.badge-green {
+  background: #2ecc71;
+  padding: 4px 12px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* =========================================================
+   BUTTONS (full neon theme)
+========================================================= */
+.btn-blue {
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #00eaff, #0077ff);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 0 10px rgba(0, 170, 255, 0.7);
+}
+.btn-blue:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 18px rgba(0, 170, 255, 1);
+}
+
+.btn-green {
+  padding: 10px 18px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #38ef7d, #11998e);
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.25s;
+}
+.btn-green:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 18px rgba(17, 153, 142, 1);
+}
+
+.btn-cancel {
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.btn-cancel:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 16px rgba(192, 72, 255, 1);
+}
+
+/* =========================================================
+   MODAL OVERLAY (same as LoanRequests)
+========================================================= */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(6px);
+  z-index: 999999; /* Always on top */
+}
+
+/* =========================================================
+   MODAL BOX (centered glossy card)
+========================================================= */
+.modal-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 460px;
+
+  background: rgba(0, 0, 0, 0.78);
+  border-radius: 20px;
+  padding: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: white;
+
+  z-index: 1000000; /* Above overlay */
+  box-shadow: 0 0 30px rgba(0, 234, 255, 0.25);
+}
+
+/* Modal heading */
+.modal-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #00eaff;
+  margin-bottom: 16px;
+}
+
+/* =========================================================
+   TEXT & LABELS
+========================================================= */
+.reason-box {
+  background: rgba(60, 60, 100, 0.4);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.modal-input {
+  width: 100%;
+  height: 90px;
+  margin-top: 6px;
+  padding: 10px;
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: white;
+  resize: none;
+}
+.modal-input:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 10px rgba(0, 234, 255, 0.5);
+}
+
+/* =========================================================
+   MODAL FOOTER
+========================================================= */
+.acc-modal-footer {
+  margin-top: 18px;
+  display: flex;
+  gap: 12px;
+}
+
+/* Modal block message */
+.modal-block-msg {
+  margin-top: 12px;
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+/* =========================================================
+   ALERT BOXES
+========================================================= */
+.admin-alert {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.admin-alert-success {
+  background: rgba(0, 255, 140, 0.2);
+  border: 1px solid #00ff88;
+  color: #00ff9d;
+}
+
+.admin-alert-error {
+  background: rgba(255, 80, 80, 0.2);
+  border: 1px solid #ff5e5e;
+  color: #ff6b6b;
+}

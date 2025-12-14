@@ -1,0 +1,299 @@
+/* =============== WRAPPER =============== */
+.delete-wrapper {
+  min-height: 100vh;
+  padding-top: 110px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* =============== CARD =============== */
+.delete-card {
+  width: 100%;
+  max-width: 560px;
+
+  background: rgba(0,0,0,0.55);
+  border-radius: 20px;
+
+  padding: 35px;
+  margin-bottom: 40px;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.45);
+
+  color: white;
+}
+
+/* =============== TITLE ROW =============== */
+.delete-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+
+  padding: 0 4px;
+}
+
+.delete-title {
+  margin: 0;
+  padding: 0;
+
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+/* =============== LABELS =============== */
+.gl-label {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #e6e6e6;
+}
+
+/* =============== INPUTS =============== */
+.gl-input {
+  width: 100%;
+  padding: 12px;
+
+ background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 15px;
+
+  transition: 0.25s ease;
+}
+
+
+.gl-input:focus {
+   border-color: #00eaff;
+   background: rgba(255,255,255,0.06);
+   box-shadow: 0 0 10px rgba(0,234,255,0.6);
+   transform: scale(1.03);
+   outline: none;
+}
+
+/* =============== ERROR STATE =============== */
+.gl-input-error {
+  border: 2px solid #ff5b5b !important;
+}
+
+/* ============================
+   BUTTONS — styled to match dashboard
+   ============================ */
+
+/* Shared pill base so delete + cancel match the dashboard sizing */
+.gl-btn-delete,
+.gl-btn-cancel {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 12px 28px;
+  border-radius: 50px; /* pill */
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.25s ease;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  margin-top: 14px;
+}
+
+/* Delete button — red gradient but same pill shape and glow as dashboard */
+.gl-btn-delete {
+  background: linear-gradient(135deg, #ff6b6b, #d40000);
+  color: white;
+  box-shadow: 0 0 12px rgba(215, 50, 50, 0.65);
+  border: 1px solid rgba(255, 70, 70, 0.18);
+}
+
+.gl-btn-delete:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 20px rgba(215, 50, 50, 0.9);
+}
+
+/* Disabled state: same visual pattern as dashboard disabled */
+.gl-btn-delete.disabled,
+.gl-btn-delete:disabled {
+  background: #777 !important;
+  box-shadow: none !important;
+  cursor: not-allowed;
+  transform: none !important;
+  opacity: 0.85;
+}
+
+/* Cancel button — same purple gradient used in dashboard */
+.gl-btn-cancel {
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+  color: white;
+  box-shadow: 0 0 12px rgba(192, 72, 255, 0.6);
+  border: 1px solid rgba(192,72,255,0.12);
+}
+
+.gl-btn-cancel:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 20px rgba(192, 72, 255, 1);
+}
+
+/* ALERT BOXES */
+.alert-box {
+  padding: 14px;
+  margin-bottom: 20px;
+
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.alert-success {
+  background: rgba(0, 255, 100, 0.12);
+  color: #00ff6e;
+}
+
+.alert-error {
+  background: rgba(255, 0, 0, 0.08);
+  color: #ff4b4b;
+}
+
+/* =============== BUTTON ROW (SIDE BY SIDE + CENTER) =============== */
+.delete-actions-row {
+  display: flex;
+  justify-content: center;   /* Center align */
+  align-items: center;
+  gap: 20px;                 /* Space between buttons */
+  margin-top: 20px;
+}
+
+/* Make both buttons equal width */
+.delete-actions-row button {
+  flex: 1;
+  max-width: 220px;          /* keeps them neat */
+}
+
+/* =============================
+   BACK BUTTON (Blue glossy, smaller)
+   ============================= */
+.gl-btn-back {
+  padding: 10px 26px;
+  border-radius: 50px;
+
+  background: linear-gradient(135deg, #00aaff, #0066ff);
+  border: 1px solid rgba(0,140,255,0.25);
+
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+
+  transition: 0.25s ease;
+  box-shadow: 0 0 12px rgba(0,140,255,0.55);
+}
+
+.gl-btn-back:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 20px rgba(0,170,255,1);
+}
+
+
+/* hamburger button (same as dashboard) */
+.menu-btn-global {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+
+  color: white;
+  padding: 8px 14px;
+  font-size: 20px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: 0.25s;
+  z-index: 500;
+}
+
+.menu-btn-global:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+}
+
+/* small responsive tweaks */
+@media (min-width: 640px) {
+  .delete-card {
+    padding: 40px;
+  }
+
+  .gl-btn-delete,
+  .gl-btn-cancel {
+    width: auto;
+    min-width: 220px;
+  }
+
+  .delete-title-row {
+    gap: 12px;
+  }
+}
+/* SAME HAMBURGER AS CUSTOMER DASHBOARD */
+.menu-btn-global {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+
+  color: white;
+  padding: 8px 14px;
+  font-size: 20px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: 0.25s;
+  z-index: 500;
+}
+
+.menu-btn-global:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+}
+
+/* =============================
+   SEND OTP BUTTON (Blue glossy)
+   ============================= */
+.gl-btn-send-otp {
+  width: 100%;
+  padding: 12px 28px;
+
+  border-radius: 50px;
+  border: none;
+
+  background: linear-gradient(135deg, #00aaff, #0066ff);
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  margin-top: 14px;
+
+  transition: 0.25s ease;
+  box-shadow: 0 0 12px rgba(0,140,255,0.55);
+}
+
+.gl-btn-send-otp:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 20px rgba(0,170,255,1);
+}
+

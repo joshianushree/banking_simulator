@@ -1,0 +1,224 @@
+/* ==========================================================
+   PAGE WRAPPER (same background as Statistics & Dashboard)
+   ========================================================== */
+.deposit-wrapper {
+  min-height: 100vh;
+  /* background: radial-gradient(circle at top, #08121f, #030b16 60%, #000); */
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* ==========================================================
+   GLOBAL MENU BUTTON (fixed - same as dashboard)
+   ========================================================== */
+.menu-btn-global {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: white;
+  padding: 8px 14px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 9000;
+  transition: 0.25s;
+}
+
+.menu-btn-global:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 12px rgba(0,234,255,0.6);
+}
+
+/* ==========================================================
+   SUBHEADER (same style as StatisticsPage)
+   ========================================================== */
+.deposit-subheader {
+  max-width: 900px;
+  margin: 30px auto 20px auto;
+  padding: 16px 24px;
+
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.45);
+}
+
+.deposit-title {
+  /* color: #00eaff; */
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* Back Button */
+.deposit-back-btn {
+  background: linear-gradient(135deg, #009dff, #005eff);
+  padding: 10px 24px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(0,140,255,0.6);
+  transition: 0.25s;
+}
+
+.deposit-back-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(0,170,255,1);
+}
+
+/* ==========================================================
+   FORM WRAPPER (Glass Card)
+   ========================================================== */
+.deposit-form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 18px;
+
+  box-shadow: 0 0 25px rgba(0,0,0,0.45);
+  backdrop-filter: blur(12px);
+
+  color: white;
+}
+
+.deposit-form-title {
+  font-size: 30px;
+  font-weight: 700;
+  /* color: #00eaff; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ==========================================================
+   INPUTS
+   ========================================================== */
+.deposit-input,
+.deposit-select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 10px;
+  color: white;
+
+  transition: 0.2s;
+}
+.deposit-select {
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  -moz-appearance: auto !important;
+}
+.deposit-select option {
+  background: rgba(0,0,0,0.85) !important;
+  color: white !important;
+}
+
+.deposit-input:focus,
+.deposit-select:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+  outline: none;
+}
+
+/* Labels */
+.deposit-label {
+  font-size: 15px;
+  color: #cfefff;
+  font-weight: 500;
+}
+
+/* ==========================================================
+   BUTTONS
+   ========================================================== */
+.deposit-btn-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.deposit-cancel {
+  flex: 1;
+  padding: 12px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+  font-weight: 600;
+}
+
+.deposit-cancel:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px rgba(219, 132, 209, 0.9);
+}
+
+.deposit-submit {
+  flex: 1;
+  padding: 12px;
+  border-radius: 50px;
+
+  background: linear-gradient(135deg, #222c28, #009e55);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.25s;
+  box-shadow: 0 0 12px rgba(0,255,130,0.5);
+}
+
+.deposit-submit:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px rgba(0,255,130,0.9);
+}
+
+/* Disabled state */
+.deposit-submit:disabled {
+  background: gray;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ==========================================================
+   MESSAGE
+   ========================================================== */
+.deposit-msg {
+  margin-bottom: 10px;
+  color: #ff4f4f;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+@media (max-width: 600px) {
+  .deposit-subheader {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .deposit-btn-row {
+    flex-direction: column;
+  }
+
+  .deposit-submit,
+  .deposit-cancel {
+    width: 100%;
+  }
+}

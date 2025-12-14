@@ -1,0 +1,250 @@
+/* ==========================================================
+   PAGE WRAPPER
+   ========================================================== */
+.withdraw-wrapper {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #08121f, #030b16 60%, #000);
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* ==========================================================
+   GLOBAL MENU BUTTON
+   ========================================================== */
+.menu-btn-global {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 8px 14px;
+  font-size: 20px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: white;
+  border-radius: 10px;
+  z-index: 5000;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.menu-btn-global:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 12px rgba(0,234,255,0.6);
+}
+
+/* ==========================================================
+   SUBHEADER
+   ========================================================== */
+.withdraw-subheader {
+  max-width: 900px;
+  margin: 30px auto 20px auto;
+  padding: 16px 24px;
+
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.45);
+}
+
+.withdraw-title {
+  font-size: 30px;
+  font-weight: 700;
+  /* color: #00eaff; */
+}
+
+/* Back Button */
+.withdraw-back-btn {
+  padding: 10px 24px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #009dff, #005eff);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(0,140,255,0.6);
+  transition: 0.25s;
+}
+.withdraw-back-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(0,170,255,1);
+}
+
+/* ==========================================================
+   FORM CONTAINER
+   ========================================================== */
+.withdraw-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.withdraw-card {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 28px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 22px rgba(0,0,0,0.45);
+}
+
+.withdraw-card-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #00eaff;
+  margin-bottom: 16px;
+}
+
+.withdraw-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.withdraw-input,
+.withdraw-select {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+
+  background: rgba(255,255,255,0.08);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+
+  transition: 0.25s;
+}
+.withdraw-select {
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  -moz-appearance: auto !important;
+}
+
+.withdraw-select option {
+  background: rgba(0,0,0,0.85) !important;
+  color: white !important;
+}
+
+.withdraw-input:focus,
+.withdraw-select:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+  outline: none;
+}
+
+.withdraw-msg {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.withdraw-btn-row {
+  display: flex;
+  gap: 16px;
+}
+
+.withdraw-cancel,
+.withdraw-submit {
+  flex: 1;
+  padding: 12px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+  color: white;
+}
+
+.withdraw-cancel {
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+}
+.withdraw-cancel:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 18px rgba(192,72,255,1);
+}
+
+.withdraw-submit {
+  background: linear-gradient(135deg, #993105, #ec1d06);
+}
+.withdraw-submit:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 16px rgba(255, 85, 0, 0.732);
+}
+
+/* ==========================================================
+   PIN MODAL
+   ========================================================== */
+
+.withdraw-pin-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9000;
+}
+
+.withdraw-pin-modal {
+  width: 320px;
+  padding: 26px;
+  background: rgba(0,0,0,0.75);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+  backdrop-filter: blur(12px);
+  text-align: center;
+}
+
+.withdraw-pin-title {
+  font-size: 30px;
+  font-weight: 700;
+  /* color: #00eaff; */
+  margin-bottom: 16px;
+}
+
+.withdraw-pin-input {
+  width: 100%;
+  padding: 10px 14px;
+  text-align: center;
+
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+  color: white;
+  margin-bottom: 18px;
+}
+
+.withdraw-pin-btn-row {
+  display: flex;
+  gap: 16px;
+}
+
+.withdraw-pin-cancel,
+.withdraw-pin-confirm {
+  flex: 1;
+  padding: 10px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.withdraw-pin-cancel {
+  background: linear-gradient(135deg, #f98a5a, #c048ff);
+  color: white;
+}
+.withdraw-pin-confirm {
+  background: linear-gradient(135deg, #993105, #ec1d06);
+  color: white;
+}
+
+.withdraw-pin-cancel:hover,
+.withdraw-pin-confirm:hover {
+  transform: scale(1.06);
+}

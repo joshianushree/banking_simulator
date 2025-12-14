@@ -1,0 +1,275 @@
+/* ==========================================================
+   PAGE WRAPPER
+   ========================================================== */
+.stats-wrapper {
+  min-height: 100vh;
+
+  /* ✅ Background imported exactly like rollback-wrapper */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* ==========================================================
+   MENU BUTTON (same as dashboard)
+   ========================================================== */
+.menu-btn-global {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: white;
+  padding: 8px 14px;
+  font-size: 20px;
+  border-radius: 10px;
+  z-index: 9999;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.menu-btn-global:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+}
+
+/* ==========================================================
+   SUBHEADER
+   ========================================================== */
+.stats-subheader {
+  margin: 30px auto 20px auto;
+  max-width: 1200px;
+  padding: 16px 24px;
+
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.45);
+}
+
+.stats-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* BACK BUTTON (blue neon) */
+.stats-back-btn {
+  background: linear-gradient(135deg, #009dff, #005eff);
+  padding: 10px 24px;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(0,140,255,0.6);
+  transition: 0.25s;
+}
+.stats-back-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(0,170,255,1);
+}
+
+/* ==========================================================
+   MAIN CONTENT WRAPPER
+   ========================================================== */
+.stats-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ==========================================================
+   FILTER BAR
+   ========================================================== */
+.stats-filter-bar {
+  padding: 20px;
+  margin-bottom: 28px;
+
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+  background: rgba(0,0,0,0.50);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.stats-select {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 10px 14px;
+  border-radius: 10px;
+  color: white;
+}
+
+.stats-select option {
+  background: rgba(0,0,0,0.85) !important;
+  color: white !important;
+}
+
+.stats-apply-btn {
+  padding: 10px 24px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #009dff, #005eff);
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 0 12px rgba(0,140,255,0.6);
+  cursor: pointer;
+  transition: 0.25s;
+}
+.stats-apply-btn:hover {
+  transform: scale(1.06);
+}
+
+/* ==========================================================
+   SUMMARY CARDS — GRID WITH EXTRA SPACING
+   ========================================================== */
+.stats-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  padding: 20px 4px !important;
+  gap: 22px !important;
+  margin-bottom: 40px !important;
+}
+
+.stats-summary-card {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 26px !important;
+
+  text-align: center;
+  border-radius: 18px !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.35);
+}
+
+.stats-summary-card h3 {
+  color: #00eaff;
+  font-size: 20px !important;
+  font-weight: 600;
+  margin-bottom: 10px !important;
+}
+
+.stats-summary-card p {
+  font-size: 28px !important;
+  font-weight: 700;
+  margin-top: 8px !important;
+  color: white;
+}
+
+/* ==========================================================
+   CHART GRID WITH PADDING
+   ========================================================== */
+.stats-chart-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px !important;
+  padding: 20px 4px !important;
+  margin-top: 20px !important;
+  margin-bottom: 40px !important;
+}
+
+/* ==========================================================
+   CHART BLOCK (glass)
+   ========================================================== */
+.stats-chart-block {
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 28px !important;
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 24px rgba(0,0,0,0.45);
+
+  min-height: 720px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chart wrapper */
+.stats-chart-block > div {
+  flex: 1 !important;
+  height: 100% !important;
+}
+
+/* Chart canvas */
+.stats-chart-block canvas {
+  height: 100% !important;
+  width: 100% !important;
+  display: block !important;
+}
+
+/* Chart Title */
+.stats-chart-block h2 {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  margin-bottom: 16px !important;
+  text-shadow: 0 0 10px rgba(0,234,255,0.6);
+}
+
+/* ==========================================================
+   FIXED HEIGHT CLASS
+   ========================================================== */
+.chart-fixed {
+  height: 660px !important;
+  overflow: hidden !important;
+}
+
+/* ==========================================================
+   CHART LABELS / LEGENDS VISIBILITY IMPROVED
+   ========================================================== */
+.chartjs-legend li span,
+.chartjs-legend li {
+  font-size: 16px !important;
+}
+
+.chartjs-render-monitor * {
+  font-size: 16px !important;
+}
+
+/* Tooltip */
+.chartjs-tooltip {
+  font-size: 16px !important;
+}
+
+/* ==========================================================
+   X-AXIS DATE OVERFLOW FIX
+   ========================================================== */
+.chartjs-size-monitor,
+.chartjs-render-monitor {
+  padding-bottom: 20px !important;
+}
+
+/* ==========================================================
+   LOADING TEXT
+   ========================================================== */
+.neon-loading {
+  text-align: center;
+  margin-top: 160px;
+  font-size: 24px;
+  color: #00eaff;
+  text-shadow: 0 0 10px rgba(0,234,255,0.6);
+}
+
+/* ==========================================================
+   RESPONSIVE FIXES
+   ========================================================== */
+@media (max-width: 900px) {
+  .stats-chart-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .stats-chart-block {
+    min-height: 600px !important;
+  }
+  .chart-fixed {
+    height: 540px !important;
+  }
+}

@@ -1,0 +1,253 @@
+/* =======================================================
+   PAGE BACKGROUND
+======================================================= */
+.admin-accounts-wrapper {
+  min-height: 100vh;
+  background-image: url("../../public/galaxy-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: "Poppins", sans-serif;
+  padding-top: 110px;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* =======================================================
+   GLASS CARD CONTAINER
+======================================================= */
+.admin-accounts-container {
+  width: 100%;
+  max-width: 1150px;
+  position: relative;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+
+  padding: 30px;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 0 40px rgba(0,0,0,0.45);
+
+  color: white;
+}
+
+/* =======================================================
+   TOP BAR
+======================================================= */
+.acc-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.acc-topbar h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* Controls */
+.acc-controls {
+  display: flex;
+  gap: 12px;
+}
+
+/* Search Input */
+.acc-search {
+  width: 260px;
+  padding: 12px 14px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.08);
+  color: white;
+
+  transition: 0.25s ease;
+}
+
+.acc-search:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 12px rgba(0,234,255,0.6);
+  outline: none;
+}
+
+/* =======================================================
+   BUTTONS — EXACT SAME AS LOCKED ACCOUNTS
+======================================================= */
+.btn-blue {
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: none;
+
+  background: linear-gradient(135deg, #00eaff, #0077ff);
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 0 10px rgba(0,170,255,0.7);
+}
+
+.btn-blue:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 18px rgba(0,170,255,1);
+}
+
+.btn-green {
+  padding: 8px 14px;
+  border-radius: 50px;
+  border: none;
+
+  background: linear-gradient(135deg, #38ef7d, #11998e);
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 0 12px rgba(17,153,142,0.7);
+}
+
+.btn-green:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 18px rgba(17,153,142,1);
+}
+
+/* Cancel button */
+.btn-cancel {
+  padding: 10px 18px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+  border: none;
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn-cancel:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 16px rgba(192,72,255,1);
+}
+
+/* =======================================================
+   STATUS MESSAGE
+======================================================= */
+.acc-msg {
+  color: #7cffb2;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* =======================================================
+   TABLE — EXACT OLD SYSTEM THEME
+======================================================= */
+.acc-table-wrapper {
+  margin-top: 10px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  width:100%;
+  border: 1px solid rgba(255,255,255,0.15);
+  overflow-x: auto;
+}
+
+.acc-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+.acc-table th {
+  padding: 12px;
+  text-align: left;
+  background: rgba(255,255,255,0.15);
+  font-weight: 600;
+}
+
+.acc-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+/* White tint hover */
+.acc-table tr:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+/* Empty */
+.acc-empty {
+  text-align: center;
+  padding: 20px;
+  color: #ddd;
+}
+
+/* =======================================================
+   DETAILS MODAL — EXACT MATCH TO OLD STYLE
+======================================================= */
+.acc-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.acc-modal {
+  width: 420px;
+  background: rgba(0,0,0,0.75);
+  border-radius: 20px;
+  padding: 26px;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: white;
+}
+
+
+.acc-modal-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #00eaff;
+  margin-bottom: 16px;
+}
+
+.acc-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Modal input */
+.acc-input {
+  width: 100%;
+  padding: 10px 14px;
+
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+  color: white;
+
+  transition: 0.25s;
+}
+
+.acc-input:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+  outline: none;
+}
+
+.acc-error {
+  color: #ff6b6b;
+  margin-top: 8px;
+}
+
+/* Footer */
+.acc-modal-footer {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}

@@ -1,0 +1,149 @@
+/* ---------- container + base galaxy background ---------- */
+.homepage-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ---------- Nebula Animation (unused but kept) ---------- */
+@keyframes nebulaFloat {
+  0%   { transform: translateY(0) scale(1); }
+  50%  { transform: translateY(-12px) scale(1.02); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+/* ---------- STAR LAYERS ---------- */
+.stars-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+/* ⭐ Layer 1 — small stars, bright, faster rotation */
+.stars1 {
+  background-image: url("../assets/stars-layer1.png");
+  z-index: 2;
+
+  filter: drop-shadow(0 0 12px rgba(255,255,255,1))
+          drop-shadow(0 0 22px rgba(255,255,255,0.9))
+          drop-shadow(0 0 42px rgba(255,255,255,0.7));
+
+  animation: rotateStars1 300s linear infinite;
+  opacity: 1;
+}
+
+/* ⭐ Layer 2 — bigger stars, slower rotation */
+.stars2 {
+  background-image: url("../assets/stars-layer2.png");
+  z-index: 3;
+
+  filter: blur(1px)
+          drop-shadow(0 0 20px rgba(255,255,255,1))
+          drop-shadow(0 0 40px rgba(255,255,255,0.9))
+          drop-shadow(0 0 70px rgba(255,255,255,0.8));
+
+  animation: rotateStars2 800s linear infinite;
+  opacity: 1;
+}
+
+/* ---------- Rotation Animations ---------- */
+@keyframes rotateStars1 {
+  0%   { transform: rotate(0deg) scale(1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes rotateStars2 {
+  0%   { transform: rotate(0deg) scale(1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+/* ---------- ORIGINAL HOMEPAGE CONTENT (sharp & clean) ---------- */
+.homepage-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 40px 60px;
+
+  background: rgba(0, 0, 0, 0.6); 
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ---------- Heading ---------- */
+.homepage-title {
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  
+  display: flex;
+  align-items: center;     /* PERFECT vertical centering */
+  justify-content: center; /* centers entire row */
+  gap: 12px;               /* spacing between logo and text */
+  
+  text-shadow: none;
+}
+
+.homepage-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;     /* prevents distortion */
+  display: block;
+}
+
+/* ---------- Subtitle ---------- */
+.homepage-subtitle {
+  font-size: 18px;
+  opacity: 0.85;
+  margin-bottom: 35px;
+  font-weight: 300;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn-open,
+.btn-login {
+  width: 260px;
+  padding: 14px;
+  margin: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+/* Open Account Button */
+.btn-open {
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+  box-shadow: 0 0 8px #c048ffaa;
+}
+
+/* Login Button */
+.btn-login {
+  background: linear-gradient(135deg, #00eaff, #0077ff);
+  box-shadow: 0 0 8px #00eaffaa;
+}
+
+/* Hover effect */
+.btn-open:hover,
+.btn-login:hover {
+  transform: scale(1.06);
+}

@@ -1,0 +1,250 @@
+/* PAGE WRAPPER */
+.admin-loan-wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 110px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* GLASS CARD CONTAINER (same as admin-accounts-container) */
+.admin-loan-container {
+  width: 100%;
+  max-width: 1150px;
+  position: relative;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+
+  padding: 30px;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 0 40px rgba(0,0,0,0.45);
+
+  color: white;
+  z-index: 1; /* Important: prevents overlapping modal */
+}
+
+/* TOP BAR INSIDE CARD */
+.loan-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.loan-topbar h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* Right-side controls (Back + Refresh) */
+.loan-controls {
+  display: flex;
+  gap: 12px;
+}
+
+/* TABLE WRAPPER (matches All Accounts table block) */
+.loan-table-wrapper {
+  margin-top: 10px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0.15);
+  padding-bottom: 12px;
+  overflow-x: auto;
+}
+
+/* Pending heading inside table card */
+.loan-section-title {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 16px 4px;
+}
+
+/* TABLE */
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  margin-top: 6px;
+}
+
+.loan-table th {
+  padding: 12px;
+  text-align: left;
+  background: rgba(255,255,255,0.15);
+  font-weight: 600;
+}
+
+.loan-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+/* Hover row */
+.loan-table tr:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+/* Empty row text */
+.loan-empty {
+  text-align: center;
+  padding: 20px;
+  color: #ddd;
+}
+
+/* BUTTONS — same theme as AdminAccounts */
+.btn-blue {
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: none;
+
+  background: linear-gradient(135deg, #00eaff, #0077ff);
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 0 10px rgba(0,170,255,0.7);
+}
+
+.btn-blue:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 18px rgba(0,170,255,1);
+}
+
+.btn-green {
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: none;
+
+  background: linear-gradient(135deg, #38ef7d, #11998e);
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.25s;
+  box-shadow: 0 0 18px rgba(17,153,142,0.7);
+}
+
+.btn-green:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 18px rgba(17,153,142,1);
+}
+
+/* Cancel button (purple) */
+.btn-cancel {
+  padding: 10px 18px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+  border: none;
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn-cancel:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 16px rgba(192,72,255,1);
+}
+
+/* ============================= */
+/* MODAL OVERLAY — FIXED + TOP   */
+/* ============================= */
+.acc-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(6px);
+  z-index: 999999; /* MUST be above all page layers */
+}
+
+/* ============================= */
+/* MODAL BOX — CENTERED + TOP    */
+/* ============================= */
+.acc-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 420px;
+  background: rgba(0,0,0,0.78);
+  border-radius: 20px;
+  padding: 26px;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: white;
+
+  z-index: 1000000; /* Always above overlay */
+  box-shadow: 0 0 30px rgba(0, 234, 255, 0.3);
+}
+
+/* Modal Title */
+.acc-modal-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #00eaff;
+  margin-bottom: 16px;
+}
+
+/* Modal body layout */
+.acc-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Modal input + textarea */
+.modal-label {
+  margin-top: 15px;
+  display: block;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: white;
+  margin-top: 6px;
+}
+
+.modal-input:focus {
+  outline: none;
+  border-color: #00eaff;
+  box-shadow: 0 0 12px rgba(0,234,255,0.6);
+}
+
+/* Review box in modal */
+.review-box {
+  background: rgba(0,255,255,0.07);
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,255,255,0.2);
+  margin-top: 12px;
+}
+
+.text-green {
+  color: #00ff9d;
+  font-weight: bold;
+}
+
+.text-red {
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+/* Modal footer buttons */
+.acc-modal-footer {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}

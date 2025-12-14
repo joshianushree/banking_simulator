@@ -1,0 +1,176 @@
+/* ==========================================================
+   PAGE WRAPPER (matches AdminAccounts)
+========================================================== */
+.txn-wrapper {
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 40px;
+
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ==========================================================
+   SUBHEADER (same as AdminAccounts top bar)
+========================================================== */
+.txn-subheader {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 16px 24px;
+
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.5);
+}
+
+.txn-title {
+  font-size: 30px;
+  font-weight: 700;
+  /* color: #00eaff; */
+}
+
+.txn-controls {
+  display: flex;
+  gap: 16px;
+}
+
+/* ==========================================================
+   BUTTONS (identical to AdminAccounts)
+========================================================== */
+.txn-download,
+.txn-back {
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  border: none;
+  transition: 0.25s;
+}
+
+.txn-download {
+  background: linear-gradient(135deg, #00d47b, #009e55);
+  box-shadow: 0 0 14px rgba(0, 255, 130, 0.5);
+}
+
+.txn-download:hover {
+  transform: scale(1.05);
+}
+
+.txn-back {
+  background: linear-gradient(135deg, #009dff, #005eff);
+  box-shadow: 0 0 14px rgba(0, 140, 255, 0.6);
+}
+
+.txn-back:hover {
+  transform: scale(1.05);
+}
+
+/* ==========================================================
+   TABLE WRAPPER (MATCH AdminAccounts table card)
+========================================================== */
+.txn-table-card {
+    max-width: 1200px;
+  margin: 20px auto;
+  padding: 0;
+
+  /* Exact glossy AdminAccounts color & structure */
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 20px;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0,0,0,0.45);
+
+  overflow-x: auto;
+  color: white;
+}
+
+
+/* ==========================================================
+   TABLE (EXACT acc-table styling)
+========================================================== */
+.txn-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+.txn-table th {
+  padding: 12px;
+  text-align: left;
+  background: rgba(255,255,255,0.15);
+  font-weight: 600;
+  color: white;
+}
+
+.txn-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  color: white;
+}
+
+/* Hover effect */
+.txn-table tr:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+/* Empty & Loading state */
+.txn-empty,
+.txn-loading {
+  text-align: center;
+  padding: 20px;
+  color: #ddd;
+  font-size: 16px;
+}
+
+/* ==========================================================
+   MENU BUTTON
+========================================================== */
+.menu-btn-global {
+  position: fixed;
+  top: 22px;
+  left: 22px;
+  z-index: 2000;
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: 0.25s;
+}
+
+.menu-btn-global:hover {
+  transform: scale(1.05);
+}
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+@media (max-width: 700px) {
+  .txn-subheader {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .txn-controls {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .txn-controls button {
+    width: 100%;
+  }
+}

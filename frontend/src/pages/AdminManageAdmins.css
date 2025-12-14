@@ -1,0 +1,275 @@
+/* =======================================================
+   PAGE BACKGROUND
+======================================================= */
+.manage-wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 110px;
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* =======================================================
+   MAIN GLASS CARD
+======================================================= */
+.manage-card {
+  width: 95%;
+  max-width: 1100px;
+
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+
+  padding: 30px;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 0 40px rgba(0,0,0,0.45);
+
+  color: white;
+}
+
+/* =======================================================
+   HEADER ROW
+======================================================= */
+.manage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.manage-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.manage-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+/* =======================================================
+   BUTTONS
+======================================================= */
+.gl-btn-blue {
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #00eaff, #0077ff);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 0 10px rgba(0,170,255,0.7);
+}
+
+.gl-btn-blue:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 18px rgba(0,170,255,1);
+}
+
+.gl-btn-green {
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #38ef7d, #11998e);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(17,153,142,0.7);
+  transition: 0.25s ease;
+}
+
+.gl-btn-green:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 18px rgba(17,153,142,1);
+}
+
+.gl-btn-red {
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #ff6b6b, #ff4b2b);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: 0 0 12px rgba(255,100,100,0.7);
+}
+
+.gl-btn-red:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 18px rgba(255,80,80,1);
+}
+
+.gl-btn-red.disabled,
+.gl-btn-red.disabled:hover {
+  background: #999 !important;
+  color: #444 !important;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Smaller version for table buttons */
+.small-btn {
+  padding: 8px 14px;
+}
+
+/* =======================================================
+   STATUS + LOADING
+======================================================= */
+.manage-success {
+  color: #7cffb2;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.manage-loading {
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.manage-empty {
+  text-align: center;
+  padding: 20px;
+  color: #ddd;
+}
+
+/* =======================================================
+   TABLE
+======================================================= */
+.manage-table-wrapper {
+  margin-top: 10px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+
+  border: 1px solid rgba(255,255,255,0.15);
+  overflow-x: auto;
+}
+
+.manage-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+.manage-table th {
+  padding: 12px;
+  text-align: left;
+  background: rgba(255,255,255,0.15);
+  font-weight: 600;
+}
+
+.manage-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.manage-table tr:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.manage-action-col {
+  display: flex;
+  gap: 10px;
+}
+
+/* =======================================================
+   EDIT MODAL
+======================================================= */
+.edit-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-modal {
+  max-width: 520px;
+  width: 90%;
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 20px;
+  padding: 24px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+.edit-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-username {
+  color: #7fdcff;
+  font-weight: bold;
+}
+h3{
+  color: #7fdcff;
+  font-weight: bold;
+}
+
+
+.modal-close {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #ddd;
+  font-size: 20px;
+}
+
+.edit-modal-body {
+  margin-top: 20px;
+}
+
+.gl-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.gl-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.9);
+  color: black;
+  margin-bottom: 10px;
+}
+
+.field-error {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.edit-modal-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* =======================================================
+   PERFECT ALIGNMENT FOR ALL ACTION BUTTONS
+======================================================= */
+
+.manage-action-col button {
+  height: 42px;          /* exact equal height */
+  width: 110px;          /* exact equal width */
+  padding: 0 !important; /* prevents size distortion */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  text-align: center;
+}

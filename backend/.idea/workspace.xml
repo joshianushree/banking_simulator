@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="583c5aff-2951-4922-8b63-75aae40f0228" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../frontend/public/galaxy-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/galaxy-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/OtpModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/OtpModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/SidebarMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/SidebarMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminDashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminLockedAccounts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminLockedAccounts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminReports.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminReports.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminRollback.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminRollback.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerGeneratePin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerGeneratePin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/StatisticsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/StatisticsPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/services/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/services/accounts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/services/customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/services/customer.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="34uzbIP3X2RnvUcEadwxeL7y8Zq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BankingSimulatorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/banking-simulator/backend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="BankingSimulatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bankingsim.BankingSimulatorApplication" />
+      <module name="banking-simulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bankingsim.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BankingSimulatorApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="583c5aff-2951-4922-8b63-75aae40f0228" name="Changes" comment="" />
+      <created>1762078314274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762078314274</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/banking-simulator/src/main/java/com/bankingsim/BankingSimulatorApplication.java</url>
+          <line>19</line>
+          <properties field="bankingConsole" class="com.bankingsim.BankingSimulatorApplication" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,285 @@
+/* ==========================================================
+   PAGE WRAPPER
+   ========================================================== */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.transfer-wrapper {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #08121f, #030b16 60%, #000);
+  padding-top: 100px;
+  padding-bottom: 40px;      /* ⭐ FIXED: Prevent white gap */
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* ==========================================================
+   GLOBAL MENU BUTTON
+   ========================================================== */
+.menu-btn-global {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: white;
+  padding: 8px 14px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 9000;
+  transition: 0.25s;
+}
+.menu-btn-global:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 12px rgba(0,234,255,0.6);
+}
+
+/* ==========================================================
+   SUBHEADER
+   ========================================================== */
+.transfer-subheader {
+  max-width: 900px;
+  margin: 30px auto 20px auto;
+  padding: 16px 24px;
+
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.45);
+}
+
+.transfer-title {
+  /* color: #00eaff; */
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.transfer-back-btn {
+  background: linear-gradient(135deg, #009dff, #005eff);
+  padding: 10px 24px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+  box-shadow: 0 0 12px rgba(0,140,255,0.6);
+}
+.transfer-back-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px rgba(0,170,255,1);
+}
+
+/* ==========================================================
+   FORM CONTAINER (Glass Card)
+   ========================================================== */
+.transfer-form-container {
+  max-width: 500px;
+  margin: 25px auto 0 auto;  /* ⭐ FIXED: removed bottom margin */
+  padding: 30px;
+
+  background: rgba(0,0,0,0.55);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 18px;
+
+  box-shadow: 0 0 25px rgba(0,0,0,0.45);
+  backdrop-filter: blur(12px);
+}
+
+.transfer-form-title {
+  font-size: 30px;
+  /* color: #00eaff; */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ==========================================================
+   INPUTS
+   ========================================================== */
+.transfer-label {
+  font-size: 15px;
+  color: #cfefff;
+  font-weight: 500;
+}
+
+.transfer-input,
+.transfer-select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 10px;
+  color: white;
+
+  transition: 0.25s;
+}
+
+.transfer-select option {
+  background: rgba(0,0,0,0.85) !important;
+  color: white !important;
+}
+.transfer-select {
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  -moz-appearance: auto !important;
+}
+
+.transfer-input:focus,
+.transfer-select:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 10px rgba(0,234,255,0.6);
+  outline: none;
+}
+
+/* ==========================================================
+   BUTTONS
+   ========================================================== */
+.transfer-btn-row {
+  display: flex;
+  gap: 18px;
+  margin-top: 10px;
+}
+
+.transfer-btn {
+  flex: 1;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.transfer-cancel {
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+  box-shadow: 0 0 14px rgba(192,72,255,0.55);
+}
+.transfer-cancel:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 22px rgba(192,72,255,1);
+}
+
+.transfer-submit {
+  background: linear-gradient(135deg, #009dff, #005eff);
+  box-shadow: 0 0 14px rgba(0,140,255,0.6);
+}
+.transfer-submit:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 22px rgba(0,170,255,1);
+}
+
+/* ==========================================================
+   ERROR MESSAGE
+   ========================================================== */
+.transfer-msg {
+  color: #ff4f4f;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* ==========================================================
+   PIN MODAL
+   ========================================================== */
+.transfer-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9000;
+}
+
+.transfer-modal {
+  width: 320px;
+  padding: 24px;
+
+  background: rgba(0,0,0,0.75);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 18px;
+
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.55);
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  /* color: #00eaff; */
+  margin-bottom: 16px;
+}
+
+.modal-pin-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  text-align: center;
+}
+
+.modal-btn-row {
+  margin-top: 16px;
+  display: flex;
+  gap: 14px;
+}
+
+.modal-btn {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.modal-cancel {
+  background: linear-gradient(135deg, #6a5af9, #c048ff);
+}
+.modal-confirm {
+  background: linear-gradient(135deg, #00d47b, #009e55);
+}
+
+.modal-cancel:hover,
+.modal-confirm:hover {
+  transform: scale(1.06);
+}
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+@media (max-width: 600px) {
+  .transfer-subheader {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    background: rgba(0,0,0,0.55);
+  }
+
+  .transfer-btn-row {
+    flex-direction: column;
+  }
+
+  .transfer-btn {
+    width: 100%;
+  }
+}
