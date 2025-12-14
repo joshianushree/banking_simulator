@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="583c5aff-2951-4922-8b63-75aae40f0228" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../frontend/public/galaxy-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/public/galaxy-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/OtpModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/OtpModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/SidebarMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/SidebarMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminAccounts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminCreateAccount.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminDashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminLockedAccounts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminLockedAccounts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminManageAdmins.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminReports.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminReports.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/AdminRollback.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/AdminRollback.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeleteAccount.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerDeposit.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerGeneratePin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerGeneratePin.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransactions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerTransfer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/CustomerWithdraw.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/StatisticsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/StatisticsPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/services/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/services/accounts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/services/customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/services/customer.js" afterDir="false" />
-    </list>
+    <list default="true" id="583c5aff-2951-4922-8b63-75aae40f0228" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
