@@ -75,6 +75,7 @@ export default function AdminLockedAccounts() {
 }, []);
 
 
+
   return (
     <div className="locked-wrapper">
       <Header />

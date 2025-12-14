@@ -1,5 +1,5 @@
 // src/pages/Login.jsx
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { adminLogin, customerLogin } from "../services/auth";
 import OtpModal from "../components/OtpModal";
 import ForgotModal from "../components/ForgotModal";
@@ -105,6 +105,11 @@ export default function Login() {
       </span>
     </div>
   );
+
+useEffect(() => {
+  document.title = "Login Page | AstroNova Bank";
+}, []);
+
 
   return (
     <div
